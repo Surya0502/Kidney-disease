@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+{% extends "material/base.html" %}
+{% block content %}
+<div>
+<div class="col 12 m10 offset-ml center">
+    <img src="static/imgs/k3.jpg"  width="600" height="300">
+   <div class="col 12 m10 offset-ml center">
+            <a href="{{url_for('index')}}" class="btn btn-small red white-text waves-effect waves-dark">Back</a>
+            
+        </div>
+</div>
+</div>
+    </div>     
+<div class="container">
+		<h1>Details : </h1>
+    <h3>This is a basic machine learning based medical app.</h3>
+    <p>The prediction about the disease is made with the help of the machine learning model which itself is trained on a dataset</p>
+    <h3>Attributes of the dataset:-</h3>
+    <ul>
+      <li>Age - Age of the patient</li><br>
+      <li>bp - blood pressure</li><br>
+      <li>sg - specific gravity(nominal)(1.005,1.010,1.015,1.020,1.025) </li><br>
+      <li>al - albumin(nominal)(0,1,2,3,4,5)</li><br>
+      <li>su - sugar(nominal)(0,1,2,3,4,5)</li><br>
+      <li>rbc - red blood cells</li><br>
+      <li>pc - pus cell</li><br>
+      <li>pcc - pus cell clumps</li><br>
+      <li>ba - bacteria</li><br>
+      <li>bgr - blood glucose random</li><br>
+      <li>bu - blood urea</li><br>
+      <li>sc - serum creatinine</li><br>
+      <li>sod - sodium</li><br>
+      <li>pot - potassium</li><br>
+      <li>hemo - hemoglobin</li><br>
+      <li>pcv - packed cell volume</li><br>
+       <li> wc - white blood cell count</li><br>
+       <li> rc - red blood cell count</li><br>
+       <li> htn - hypertension</li><br>
+       <li> dm - diabetes mellitus(No-0,Yes-1)</li><br>
+       <li> cad - coronary artery disease</li><br>
+       <li> appet - appetite</li><br>
+       <li> pe - pedal edema</li><br>
+       <li> ane - anemia</li><br>
+       <li> classification - class</li><br>
+      
+    </ul>
+    
+    <br>
+    <h3>Symptoms:-</h3>
+    <p> Signs and symptoms of chronic kidney disease develop over time if kidney damage progresses slowly. Signs and symptoms of kidney disease may include:</p>
+    <div style="text-align: center; margin-top: 20px">
+       <img style="max-width: 400px" src="static/imgs/hh3.jpg"/>
+   </div>
+ <ul>
+
+        <li>Nausea</li><br>
+        <li>Vomiting</li><br>
+        <li>Loss of appetite</li><br>
+        <li>Fatigue and weakness</li><br>
+        <li>Sleep problems</li><br>
+        <li>Changes in how much you urinate</li><br>
+        <li>Decreased mental sharpness</li><br>
+        <li>Muscle twitches and cramps</li><br>
+        <li>Swelling of feet and ankles</li><br>
+        <li>Persistent itching</li><br>
+        <li>Chest pain, if fluid builds up around the lining of the heart</li><br>
+        <li>Shortness of breath, if fluid builds up in the lungs</li><br>
+        <li>High blood pressure (hypertension) that's difficult to control</li><br>
+  
+</ul>
+<br> 
+    
+
+</div>
+</div>
+
+
+
+{% endblock %}
+</body>
+</html>
